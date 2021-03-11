@@ -1,0 +1,12 @@
+@media (min-width: 769px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 100% !important;
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+}
+
+
+body {
+    background-color: #e8e8e8 !important;
+}

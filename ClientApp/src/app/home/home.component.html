@@ -1,0 +1,81 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 mb-3" *ngIf="showFileUploadComponent"> 
+        <div id="file-upload" class="file-upload-wrapper" data-text="Please, select an Ifc2x3 or Ifc4 file to display.">
+            <input name="file-upload-field" type="file" accept=".ifc" [disabled]="loadingFile" class="file-upload-field" (change)="selectedFileChanged($event)" >
+        </div>
+
+        <div class="progress form-group mt-2" *ngIf="progress > 0">
+            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" [style.width.%]="progress">
+            </div>
+        </div>
+        <p *ngIf="loadingFile">Loading model... % {{progress}}</p>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="card" style="box-shadow: 0 2px 10px 0 rgb(0 0 0 / 7%);">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-lg-11 col-md-11 col-sm-11">
+                        IFC - File {{ifcFileName}}
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1">
+                        <button
+                            type="button"
+                            class="text-white btn btn-secondary" style="float: right;height: 20px;padding-top: 0px;border-top-width: 0px;"
+                            (click)="toggleCollapse()"
+                        >
+                            <fa-icon [icon]="['fa', 'minus']" *ngIf="isCollapsed"></fa-icon>
+                            <fa-icon [icon]="['fa', 'plus']" *ngIf="!isCollapsed"></fa-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body" *ngIf="isCollapsed" style="padding: 0;">
+                <div class="row" style="margin-left: 0; margin-right: 0;">
+                    <div class="col-lg-1 col-md-1 col-sm-1" style="padding-left: 0; padding-right: 0;">
+                        <div class="toolbox">
+                            <div class="btn-group-vertical toolbar-mobile-block">
+                                <button type="button" class="btn btn-secondary ml-2 mt-1" title="Open IFC" (click)="onShowFileUploadComponent()">
+                                    <fa-icon [icon]="['fa', 'plus']"></fa-icon>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-secondary ml-2 mt-1" title="Validate IFC" [disabled]="!loadComplete" (click)="validateIFC()">
+                                    <fa-icon [icon]="['fa', 'check-circle']"></fa-icon>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-secondary ml-2 mt-1" title="Select" [disabled]="!loadComplete" (click)="select()">
+                                    <fa-icon [icon]="['fas', 'hand-pointer']"></fa-icon>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-secondary ml-2 mt-1" title="Hide" [disabled]="!loadComplete" (click)="hide()">
+                                    <fa-icon [icon]="['fa', 'eye-slash']"></fa-icon>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-secondary ml-2 mt-1" title="Reset" [disabled]="!loadComplete" (click)="reset()">
+                                    <fa-icon [icon]="['fa', 'recycle']"></fa-icon>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-secondary ml-2 mt-1" title="Export as CityGML" [disabled]="!ifcFileIsValid" (click)="exportGML()">
+                                    <fa-icon [icon]="['fa', 'file-export']"></fa-icon>&nbsp;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7">
+                        <canvas id="viewer" style="width: 100%; height: 450px;"></canvas>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4" style="padding-left: 0; padding-right: 0;">
+                        <div class="treeview">
+                            <div style="text-align: center;">
+                                <b>IFC - Spatial View</b>
+                                <hr/>
+                            </div>
+                            <div class="mt-2">
+                                <ngx-treeview [config]="config" [items]="items" (selectedChange)="onSelectedChange($event)">
+                                </ngx-treeview>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<informationlogmodal #informationlogmodal></informationlogmodal>
+

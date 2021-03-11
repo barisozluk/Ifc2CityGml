@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "dgSpecHash": "PR5b9DZZ9G89BTs6/PlDHSI5tKQ+tW8AHRyRtBxV3oY+RqcjQj4oX+pqwjb9AjeCKNKeHzU7GEkXeUKnnPK41A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.9\\microsoft.aspnetcore.nodeservices.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.9\\microsoft.aspnetcore.spaservices.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\3.1.9\\microsoft.aspnetcore.spaservices.extensions.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.9\\microsoft.extensions.configuration.binder.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.9\\microsoft.extensions.fileproviders.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.9\\microsoft.extensions.fileproviders.physical.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.9\\microsoft.extensions.filesystemglobbing.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.logging\\3.1.9\\microsoft.extensions.logging.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.9\\microsoft.extensions.logging.configuration.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.9\\microsoft.extensions.logging.console.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.options\\3.1.9\\microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.9\\microsoft.extensions.options.configurationextensions.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.common\\5.1.322-develop\\xbim.common.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.essentials\\5.1.322-develop\\xbim.essentials.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.geometry\\5.1.403\\xbim.geometry.5.1.403.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.geometry.engine.interop\\5.1.403\\xbim.geometry.engine.interop.5.1.403.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc\\5.1.322-develop\\xbim.ifc.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc2x3\\5.1.322-develop\\xbim.ifc2x3.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc4\\5.1.322-develop\\xbim.ifc4.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.io.memorymodel\\5.1.322-develop\\xbim.io.memorymodel.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.modelgeometry.scene\\5.1.403\\xbim.modelgeometry.scene.5.1.403.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.tessellator\\5.1.322-develop\\xbim.tessellator.5.1.322-develop.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xbim.Geometry.Engine.Interop 5.1.403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Xbim.Geometry.Engine.Interop",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xbim.ModelGeometry.Scene 5.1.403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Xbim.ModelGeometry.Scene",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

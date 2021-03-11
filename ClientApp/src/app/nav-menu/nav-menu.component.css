@@ -1,0 +1,51 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.oval {
+  position: relative;
+  margin: 10px;
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #191d21;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.ovalSelected {
+  background: #fff;
+}
+
+.button {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 3px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  -webkit-transition: left 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  transition: left 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.buttonSelected {
+  left: 25px;
+  background-color: #919191;
+}

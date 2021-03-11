@@ -1,0 +1,18 @@
+<div #logModal class="modal fade" id="logModal" tabindex="-1" role="dialog" aria-labelledby="logModalTitle"
+    aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h5 class="modal-title" id="logModalLongTitle" style="color: white">                
+                    <fa-icon [icon]="['fa', 'check-circle']"></fa-icon>&nbsp;Information Log
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <b style="font-size: 16px;">{{log}}</b>
+            </div>
+        </div>
+    </div>
+</div>
