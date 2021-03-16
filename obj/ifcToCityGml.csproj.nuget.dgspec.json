@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj": {}
+    "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj": {
+    "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj",
+        "projectUniqueName": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
         "projectName": "ifcToCityGml",
-        "projectPath": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj",
+        "projectPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
         "packagesPath": "C:\\Users\\KLC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\obj\\",
+        "outputPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.SpaServices.Extensions": {
               "target": "Package",
@@ -80,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,15 +1,16 @@
 import { HttpClient, HttpEvent, HttpEventType } from '@angular/common/http';
-import { Component, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { State, Viewer } from '@dangl/xbim-viewer';
 import { TreeviewItem } from 'ngx-treeview';
 import { InformationLogModal } from '../information-log-modal/information-log-modal';
+import { saveAs } from 'file-saver';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 
     @ViewChild("informationlogmodal") informationlogmodal: InformationLogModal;
 
@@ -39,8 +40,8 @@ export class HomeComponent {
     spatialStructureList: any [] = [];
     items: TreeviewItem[] = [];
 
-    ngAfterViewInit() {
-
+    ngOnInit() {
+        
     }
 
     selectedFileChanged(event: Event) {
@@ -141,6 +142,10 @@ export class HomeComponent {
                 });
     }
 
+    validateGML() {
+
+    }
+
     select() {
         this.viewer.on('pick',
             (args) => {
@@ -161,7 +166,12 @@ export class HomeComponent {
     }
 
     exportGML() {
-
+        var path="assets/gml/a.txt";
+        var doc = document.createElement("a");
+        doc.href = path;
+        doc.download = path;
+        doc.click();
+        window.URL.revokeObjectURL("a.txt");
     }
 
     toggleCollapse(): void {

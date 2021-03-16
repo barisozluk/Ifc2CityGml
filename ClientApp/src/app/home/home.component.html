@@ -20,7 +20,7 @@
                     <div class="col-lg-1 col-md-1 col-sm-1">
                         <button
                             type="button"
-                            class="text-white btn btn-secondary" style="float: right;height: 20px;padding-top: 0px;border-top-width: 0px;"
+                            class="text-white btn btn-secondary" style="float: right;height: 25px;padding-top: 0px;border-top-width: 0px;"
                             (click)="toggleCollapse()"
                         >
                             <fa-icon [icon]="['fa', 'minus']" *ngIf="isCollapsed"></fa-icon>
@@ -69,6 +69,44 @@
                                 </ngx-treeview>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 mt-5 mb-5">
+        <div class="card" style="box-shadow: 0 2px 10px 0 rgb(0 0 0 / 7%);">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-lg-11 col-md-11 col-sm-11">
+                        CityGML - File {{ifcFileName}}
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1">
+                        <button
+                            type="button"
+                            class="text-white btn btn-secondary" style="float: right;height: 25px;padding-top: 0px;border-top-width: 0px;"
+                            (click)="toggleCollapse()"
+                        >
+                            <fa-icon [icon]="['fa', 'minus']" *ngIf="isCollapsed"></fa-icon>
+                            <fa-icon [icon]="['fa', 'plus']" *ngIf="!isCollapsed"></fa-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body" *ngIf="isCollapsed" style="padding: 0;">
+                <div class="row" style="margin-left: 0; margin-right: 0;">
+                    <div class="col-lg-1 col-md-1 col-sm-1" style="padding-left: 0; padding-right: 0;">
+                        <div class="toolbox">
+                            <div class="btn-group-vertical toolbar-mobile-block">
+                                <button type="button" class="btn btn-secondary ml-2 mt-1" title="Validate IFC" [disabled]="!loadComplete" (click)="validateGML()">
+                                    <fa-icon [icon]="['fa', 'check-circle']"></fa-icon>&nbsp;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-sm-11">
+                        <iframe src="http:\\localhost:8080" width="100%" height="450px" style="border: 0px;"></iframe>
                     </div>
                 </div>
             </div>

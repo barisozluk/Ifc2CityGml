@@ -32,11 +32,13 @@
     "aspnet-prerendering": "^3.0.1",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
+    "file-saver": "^2.0.5",
     "gl-matrix": "2.3.2",
     "jquery": "3.3.1",
     "ngx-treeview": "^6.0.2",
     "popper.js": "^1.14.5",
     "rxjs": "6.0.0",
+    "three": "^0.126.1",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

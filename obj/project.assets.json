@@ -392,7 +392,7 @@
           }
         }
       },
-      "Xbim.Common/5.1.322-develop": {
+      "Xbim.Common/5.1.323": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging": "3.1.3",
@@ -406,15 +406,15 @@
           "lib/netcoreapp3.1/Xbim.Common.dll": {}
         }
       },
-      "Xbim.Essentials/5.1.322-develop": {
+      "Xbim.Essentials/5.1.323": {
         "type": "package",
         "dependencies": {
-          "Xbim.Common": "5.1.322-develop",
-          "Xbim.IO.MemoryModel": "5.1.322-develop",
-          "Xbim.Ifc": "5.1.322-develop",
-          "Xbim.Ifc2x3": "5.1.322-develop",
-          "Xbim.Ifc4": "5.1.322-develop",
-          "Xbim.Tessellator": "5.1.322-develop"
+          "Xbim.Common": "5.1.323",
+          "Xbim.IO.MemoryModel": "5.1.323",
+          "Xbim.Ifc": "5.1.323",
+          "Xbim.Ifc2x3": "5.1.323",
+          "Xbim.Ifc4": "5.1.323",
+          "Xbim.Tessellator": "5.1.323"
         }
       },
       "Xbim.Geometry/5.1.403": {
@@ -436,10 +436,10 @@
           "build/net472/Xbim.Geometry.Engine.Interop.targets": {}
         }
       },
-      "Xbim.Ifc/5.1.322-develop": {
+      "Xbim.Ifc/5.1.323": {
         "type": "package",
         "dependencies": {
-          "Xbim.IO.MemoryModel": "5.1.322-develop"
+          "Xbim.IO.MemoryModel": "5.1.323"
         },
         "compile": {
           "lib/netcoreapp3.1/Xbim.Ifc.dll": {}
@@ -448,10 +448,10 @@
           "lib/netcoreapp3.1/Xbim.Ifc.dll": {}
         }
       },
-      "Xbim.Ifc2x3/5.1.322-develop": {
+      "Xbim.Ifc2x3/5.1.323": {
         "type": "package",
         "dependencies": {
-          "Xbim.Ifc4": "5.1.322-develop"
+          "Xbim.Ifc4": "5.1.323"
         },
         "compile": {
           "lib/netcoreapp3.1/Xbim.Ifc2x3.dll": {}
@@ -460,10 +460,10 @@
           "lib/netcoreapp3.1/Xbim.Ifc2x3.dll": {}
         }
       },
-      "Xbim.Ifc4/5.1.322-develop": {
+      "Xbim.Ifc4/5.1.323": {
         "type": "package",
         "dependencies": {
-          "Xbim.Common": "5.1.322-develop"
+          "Xbim.Common": "5.1.323"
         },
         "compile": {
           "lib/netcoreapp3.1/Xbim.Ifc4.dll": {}
@@ -472,10 +472,10 @@
           "lib/netcoreapp3.1/Xbim.Ifc4.dll": {}
         }
       },
-      "Xbim.IO.MemoryModel/5.1.322-develop": {
+      "Xbim.IO.MemoryModel/5.1.323": {
         "type": "package",
         "dependencies": {
-          "Xbim.Ifc2x3": "5.1.322-develop"
+          "Xbim.Ifc2x3": "5.1.323"
         },
         "compile": {
           "lib/netcoreapp3.1/Xbim.IO.MemoryModel.dll": {}
@@ -493,10 +493,10 @@
           "lib/net472/Xbim.ModelGeometry.Scene.dll": {}
         }
       },
-      "Xbim.Tessellator/5.1.322-develop": {
+      "Xbim.Tessellator/5.1.323": {
         "type": "package",
         "dependencies": {
-          "Xbim.Ifc2x3": "5.1.322-develop"
+          "Xbim.Ifc2x3": "5.1.323"
         },
         "compile": {
           "lib/netcoreapp3.1/Xbim.Tessellator.dll": {}
@@ -1155,12 +1155,13 @@
         "version.txt"
       ]
     },
-    "Xbim.Common/5.1.322-develop": {
-      "sha512": "3MfAPonAyr0J1J13a68gZkqxnWaHjWVkGC/G+6HZpChRrRF9ASmxFhnvjqdm7GkVcMXl9hTawa7dG5BsISv+eQ==",
+    "Xbim.Common/5.1.323": {
+      "sha512": "GkDpNpwD6Ff2Asrm5Y0TMUbOWhlKDgfZnBeXnd5xFEWs5kMPLdEhhNdJ1x2/vRwhpWlFyHhWGGKmXUZGskPPWw==",
       "type": "package",
-      "path": "xbim.common/5.1.322-develop",
+      "path": "xbim.common/5.1.323",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/Xbim.Common.dll",
         "lib/net45/Xbim.Common.pdb",
         "lib/net45/Xbim.Common.xml",
@@ -1180,37 +1181,40 @@
         "lib/netstandard2.1/Xbim.Common.pdb",
         "lib/netstandard2.1/Xbim.Common.xml",
         "xbim-toolkit-icon.png",
-        "xbim.common.5.1.322-develop.nupkg.sha512",
+        "xbim.common.5.1.323.nupkg.sha512",
         "xbim.common.nuspec"
       ]
     },
-    "Xbim.Essentials/5.1.322-develop": {
-      "sha512": "2cwsQODk+1h/gYD+ibTGDykXgfkD0uGXrqGq4oAA1bSUwxpFxlhLcehO0tMUphKZ/aCnd2qaVNKWFAt80xV5Rw==",
+    "Xbim.Essentials/5.1.323": {
+      "sha512": "Cow9LJzmywc/JQlvS1Js4hjfI+/mNft1krlJ6QF4A8eUNnx4J+0HCt3yuLB7H/WazllvQzs5zop3DgbxJx6UGg==",
       "type": "package",
-      "path": "xbim.essentials/5.1.322-develop",
+      "path": "xbim.essentials/5.1.323",
       "files": [
         ".nupkg.metadata",
-        "xbim.essentials.5.1.322-develop.nupkg.sha512",
+        ".signature.p7s",
+        "xbim.essentials.5.1.323.nupkg.sha512",
         "xbim.essentials.nuspec"
       ]
     },
     "Xbim.Geometry/5.1.403": {
-      "sha512": "1388pJgoaKATyDEQDvIcDoIDWKGqgrkd73CFWtap1ftDzbeqoDKraMpxjisiH+NYbrzbi8pj630hnAHfR5kglQ==",
+      "sha512": "jx0DVv6tjKK0mOyBUgkTlh15L9y3TS1D43COtnG1VYBOJ2PEeGmrPAjJXGOmOo+e75f3bolc4UhNJ/x4ejV7pQ==",
       "type": "package",
       "path": "xbim.geometry/5.1.403",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "Xbim.Geometry.tmpl",
         "xbim.geometry.5.1.403.nupkg.sha512",
         "xbim.geometry.nuspec"
       ]
     },
     "Xbim.Geometry.Engine.Interop/5.1.403": {
-      "sha512": "pM7NaIm5dlIEDYZOTGagOylBiYqyNxCp02mfu2lQop7i27t76ch+xJ86f48N6X5uU45sYG8oOpO8CChqquZf8w==",
+      "sha512": "tfjLKGFniUIm1jGaV7hXmw1AoDN36SEm9V4Cr62X2edPBs8RAi/cCiQACHM4Uwy2MogORWjQHA97TY1voDG8Lg==",
       "type": "package",
       "path": "xbim.geometry.engine.interop/5.1.403",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "Xbim.Geometry.Engine.Interop.targets",
         "build/net472/Xbim.Geometry.Engine.Interop.targets",
         "build/net472/Xbim.Geometry.Engine32.dll",
@@ -1224,12 +1228,13 @@
         "xbim.geometry.engine.interop.nuspec"
       ]
     },
-    "Xbim.Ifc/5.1.322-develop": {
-      "sha512": "QkY2dOtVqUrLty7aQqz4y+SRdmg0etaLKeXK5/uvHqEnSluINz3qi2bmKTr7K1Ik5gZiijdD9jc65nqS2lcYUw==",
+    "Xbim.Ifc/5.1.323": {
+      "sha512": "6JALb+71+Qf7jMrdjBNxXgGHEl2ANGS6ear5v12TPN8jV62ijmpRMQ2VvdyR549oPXPSkd45GjQk/NmLUp5uhg==",
       "type": "package",
-      "path": "xbim.ifc/5.1.322-develop",
+      "path": "xbim.ifc/5.1.323",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/Xbim.Ifc.dll",
         "lib/net45/Xbim.Ifc.pdb",
         "lib/net45/Xbim.Ifc.xml",
@@ -1249,16 +1254,17 @@
         "lib/netstandard2.1/Xbim.Ifc.pdb",
         "lib/netstandard2.1/Xbim.Ifc.xml",
         "xbim-toolkit-icon.png",
-        "xbim.ifc.5.1.322-develop.nupkg.sha512",
+        "xbim.ifc.5.1.323.nupkg.sha512",
         "xbim.ifc.nuspec"
       ]
     },
-    "Xbim.Ifc2x3/5.1.322-develop": {
-      "sha512": "q3iKDHwZWL2tj3DNxPf2bZ80rHyEJQKV7ebUaoy13AllM+8JC4LPkKAo4frTPvWiffNnsnN+jRN22g7ut5DWbg==",
+    "Xbim.Ifc2x3/5.1.323": {
+      "sha512": "hPBc8nRFTWsOKiHoXBjShs5JMUQ4WxQLsilX1IE0rwdwDUKj7QwQqzYzs7RRwoc+uI06Fp4uayeNqTLE3VEXmg==",
       "type": "package",
-      "path": "xbim.ifc2x3/5.1.322-develop",
+      "path": "xbim.ifc2x3/5.1.323",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/Xbim.Ifc2x3.dll",
         "lib/net45/Xbim.Ifc2x3.pdb",
         "lib/net45/Xbim.Ifc2x3.xml",
@@ -1278,16 +1284,17 @@
         "lib/netstandard2.1/Xbim.Ifc2x3.pdb",
         "lib/netstandard2.1/Xbim.Ifc2x3.xml",
         "xbim-toolkit-icon.png",
-        "xbim.ifc2x3.5.1.322-develop.nupkg.sha512",
+        "xbim.ifc2x3.5.1.323.nupkg.sha512",
         "xbim.ifc2x3.nuspec"
       ]
     },
-    "Xbim.Ifc4/5.1.322-develop": {
-      "sha512": "pYtTICs0QMoZh4MLlzm5EOZIsOWLSFmIlhix/i25ag/OLNtc3Mq6vSurtzJJaAwWgFFYaA/EUX7EUDop2apuzA==",
+    "Xbim.Ifc4/5.1.323": {
+      "sha512": "iFazrztwGUjLZSSbU2c4ia8x9GZQ25310bYUQ1/mkF6WhPOXUO0YXzqi/ifKzYWMFFDB07SvLdSjxYDWLfzROA==",
       "type": "package",
-      "path": "xbim.ifc4/5.1.322-develop",
+      "path": "xbim.ifc4/5.1.323",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/Xbim.Ifc4.dll",
         "lib/net45/Xbim.Ifc4.pdb",
         "lib/net45/Xbim.Ifc4.xml",
@@ -1307,16 +1314,17 @@
         "lib/netstandard2.1/Xbim.Ifc4.pdb",
         "lib/netstandard2.1/Xbim.Ifc4.xml",
         "xbim-toolkit-icon.png",
-        "xbim.ifc4.5.1.322-develop.nupkg.sha512",
+        "xbim.ifc4.5.1.323.nupkg.sha512",
         "xbim.ifc4.nuspec"
       ]
     },
-    "Xbim.IO.MemoryModel/5.1.322-develop": {
-      "sha512": "Q102BFRFIZbuCTwnMjSpUK/hnor7qG2IciKizzusTIuBQ9P6TpVM7onOXGHDlrpBWNrVBb9Zt34Bl3p8Zs9Xgg==",
+    "Xbim.IO.MemoryModel/5.1.323": {
+      "sha512": "ACoSL11jWIdI5X1UKdXxsFxdjc5HWOR7XIORKfkKtGk03yjcuBMdORC7hGVYlJsiJ4kmLO4jne8qXqGoA36UEQ==",
       "type": "package",
-      "path": "xbim.io.memorymodel/5.1.322-develop",
+      "path": "xbim.io.memorymodel/5.1.323",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/Xbim.IO.MemoryModel.dll",
         "lib/net45/Xbim.IO.MemoryModel.pdb",
         "lib/net45/Xbim.IO.MemoryModel.xml",
@@ -1336,16 +1344,17 @@
         "lib/netstandard2.1/Xbim.IO.MemoryModel.pdb",
         "lib/netstandard2.1/Xbim.IO.MemoryModel.xml",
         "xbim-toolkit-icon.png",
-        "xbim.io.memorymodel.5.1.322-develop.nupkg.sha512",
+        "xbim.io.memorymodel.5.1.323.nupkg.sha512",
         "xbim.io.memorymodel.nuspec"
       ]
     },
     "Xbim.ModelGeometry.Scene/5.1.403": {
-      "sha512": "Vn7L3Zg0rasRY9odKbCQTieLA7K82UptcV4NESV9lFPg5YhYT/XqtOcQAl6P/WaKtyJauoPecSA49MEO2Xsljg==",
+      "sha512": "19kegNHKk1PmjEwJqEH84uulzkPFcNTOZQ7fK+OGBgE3D+MeKCOfHbX2LEvyGhD4P9pgoB8ng37fiKKK7NVZgw==",
       "type": "package",
       "path": "xbim.modelgeometry.scene/5.1.403",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net472/Xbim.ModelGeometry.Scene.dll",
         "lib/net472/Xbim.ModelGeometry.Scene.pdb",
         "lib/net472/Xbim.ModelGeometry.Scene.xml",
@@ -1354,12 +1363,13 @@
         "xbim.modelgeometry.scene.nuspec"
       ]
     },
-    "Xbim.Tessellator/5.1.322-develop": {
-      "sha512": "GJHHtVkTgyl0nxKwkFxmy0GrM8nI5omL5oWOSiUW5xTn9mflt3ff07FzwtZomqN2mEFerLowrjBiWtNEuUf2Rw==",
+    "Xbim.Tessellator/5.1.323": {
+      "sha512": "Vz9Entgg0GYBa/S6JDrx9Oy0Zs2pi0kQmqIxwnKJvpga9uD3S5oD7Dy235JSZprG2a3XM2600rG+pCzCoE4NkQ==",
       "type": "package",
-      "path": "xbim.tessellator/5.1.322-develop",
+      "path": "xbim.tessellator/5.1.323",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net45/Xbim.Tessellator.dll",
         "lib/net45/Xbim.Tessellator.pdb",
         "lib/net45/Xbim.Tessellator.xml",
@@ -1379,7 +1389,7 @@
         "lib/netstandard2.1/Xbim.Tessellator.pdb",
         "lib/netstandard2.1/Xbim.Tessellator.xml",
         "xbim-toolkit-icon.png",
-        "xbim.tessellator.5.1.322-develop.nupkg.sha512",
+        "xbim.tessellator.5.1.323.nupkg.sha512",
         "xbim.tessellator.nuspec"
       ]
     }
@@ -1400,11 +1410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj",
+      "projectUniqueName": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
       "projectName": "ifcToCityGml",
-      "projectPath": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj",
+      "projectPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
       "packagesPath": "C:\\Users\\KLC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\obj\\",
+      "outputPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1422,6 +1432,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1433,6 +1444,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.SpaServices.Extensions": {
             "target": "Package",
@@ -1473,11 +1485,21 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ifcToCityGml depends on Xbim.Essentials (>= 5.1.322-develop) but Xbim.Essentials 5.1.322-develop was not found. An approximate best match of Xbim.Essentials 5.1.323 was resolved.",
+      "libraryId": "Xbim.Essentials",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PR5b9DZZ9G89BTs6/PlDHSI5tKQ+tW8AHRyRtBxV3oY+RqcjQj4oX+pqwjb9AjeCKNKeHzU7GEkXeUKnnPK41A==",
+  "dgSpecHash": "qr9MJbO46NqE9NJJdMF27wlOmMK33M3mqAKLPZpI5mueBQEMfe1/wOE6Wx6IgABVgnTfn4j7uITGN45hXNNrlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KLC\\Desktop\\ifcToCityGml\\ifcToCityGml.csproj",
+  "projectFilePath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KLC\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.9\\microsoft.aspnetcore.nodeservices.3.1.9.nupkg.sha512",
     "C:\\Users\\KLC\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.9\\microsoft.aspnetcore.spaservices.3.1.9.nupkg.sha512",
@@ -33,18 +33,28 @@
     "C:\\Users\\KLC\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
     "C:\\Users\\KLC\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\KLC\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\KLC\\.nuget\\packages\\xbim.common\\5.1.322-develop\\xbim.common.5.1.322-develop.nupkg.sha512",
-    "C:\\Users\\KLC\\.nuget\\packages\\xbim.essentials\\5.1.322-develop\\xbim.essentials.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.common\\5.1.323\\xbim.common.5.1.323.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.essentials\\5.1.323\\xbim.essentials.5.1.323.nupkg.sha512",
     "C:\\Users\\KLC\\.nuget\\packages\\xbim.geometry\\5.1.403\\xbim.geometry.5.1.403.nupkg.sha512",
     "C:\\Users\\KLC\\.nuget\\packages\\xbim.geometry.engine.interop\\5.1.403\\xbim.geometry.engine.interop.5.1.403.nupkg.sha512",
-    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc\\5.1.322-develop\\xbim.ifc.5.1.322-develop.nupkg.sha512",
-    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc2x3\\5.1.322-develop\\xbim.ifc2x3.5.1.322-develop.nupkg.sha512",
-    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc4\\5.1.322-develop\\xbim.ifc4.5.1.322-develop.nupkg.sha512",
-    "C:\\Users\\KLC\\.nuget\\packages\\xbim.io.memorymodel\\5.1.322-develop\\xbim.io.memorymodel.5.1.322-develop.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc\\5.1.323\\xbim.ifc.5.1.323.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc2x3\\5.1.323\\xbim.ifc2x3.5.1.323.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.ifc4\\5.1.323\\xbim.ifc4.5.1.323.nupkg.sha512",
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.io.memorymodel\\5.1.323\\xbim.io.memorymodel.5.1.323.nupkg.sha512",
     "C:\\Users\\KLC\\.nuget\\packages\\xbim.modelgeometry.scene\\5.1.403\\xbim.modelgeometry.scene.5.1.403.nupkg.sha512",
-    "C:\\Users\\KLC\\.nuget\\packages\\xbim.tessellator\\5.1.322-develop\\xbim.tessellator.5.1.322-develop.nupkg.sha512"
+    "C:\\Users\\KLC\\.nuget\\packages\\xbim.tessellator\\5.1.323\\xbim.tessellator.5.1.323.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ifcToCityGml depends on Xbim.Essentials (>= 5.1.322-develop) but Xbim.Essentials 5.1.322-develop was not found. An approximate best match of Xbim.Essentials 5.1.323 was resolved.",
+      "libraryId": "Xbim.Essentials",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
