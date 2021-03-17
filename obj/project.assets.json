@@ -1410,11 +1410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
+      "projectUniqueName": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\ifcToCityGml.csproj",
       "projectName": "ifcToCityGml",
-      "projectPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
+      "projectPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\ifcToCityGml.csproj",
       "packagesPath": "C:\\Users\\KLC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\obj\\",
+      "outputPath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

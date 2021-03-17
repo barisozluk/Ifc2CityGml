@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qr9MJbO46NqE9NJJdMF27wlOmMK33M3mqAKLPZpI5mueBQEMfe1/wOE6Wx6IgABVgnTfn4j7uITGN45hXNNrlg==",
+  "dgSpecHash": "F3jXSsnf/LkpaD+AVMcpr077WUMfpUmceMqFoJTBDelLuDuKxl9kTYs8A7ACsrr5LnCtbIwK7T1jF046vgI54Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\Ifc2CityGml\\ifcToCityGml.csproj",
+  "projectFilePath": "C:\\Users\\KLC\\Desktop\\Projects\\Ifc2CityGml\\ifcToCityGml.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KLC\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.9\\microsoft.aspnetcore.nodeservices.3.1.9.nupkg.sha512",
     "C:\\Users\\KLC\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.9\\microsoft.aspnetcore.spaservices.3.1.9.nupkg.sha512",

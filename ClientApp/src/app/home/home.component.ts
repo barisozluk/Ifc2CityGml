@@ -3,7 +3,6 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { State, Viewer } from '@dangl/xbim-viewer';
 import { TreeviewItem } from 'ngx-treeview';
 import { InformationLogModal } from '../information-log-modal/information-log-modal';
-import { saveAs } from 'file-saver';
 
 @Component({
   selector: 'app-home',
@@ -27,6 +26,8 @@ export class HomeComponent implements OnInit {
     progress: number = 0;
     ifcFile: File = null;
     ifcFileName: string = "";
+    ifcFileNameTEMP: string = "";
+
     ifcFileIsValid: boolean = false;
 
     config: any = {
@@ -49,6 +50,7 @@ export class HomeComponent implements OnInit {
             this.loadingFile = true;
             this.ifcFile = event.target.files[event.target.files.length - 1];
             this.ifcFileName = "(" + this.ifcFile.name + ")";
+            this.ifcFileNameTEMP = this.ifcFile.name;
             this.ifcFileIsValid = false; 
             var formData = new FormData();
             formData.append('ifcFile', this.ifcFile);
@@ -166,12 +168,25 @@ export class HomeComponent implements OnInit {
     }
 
     exportGML() {
-        var path="assets/gml/a.txt";
+        console.log(this.ifcFileNameTEMP)
+        let index = this.ifcFileNameTEMP.indexOf(".ifc");
+        let fileName = this.ifcFileNameTEMP.substr(0,index) + ".json";
+        let fileName2 = this.ifcFileNameTEMP.substr(0,index) + ".gml";
+
+        console.log(fileName);
+        var path="assets/gml/" + fileName;
         var doc = document.createElement("a");
         doc.href = path;
         doc.download = path;
         doc.click();
-        window.URL.revokeObjectURL("a.txt");
+        window.URL.revokeObjectURL(fileName);
+
+        var path="assets/gml/" + fileName2;
+        var doc = document.createElement("a");
+        doc.href = path;
+        doc.download = path;
+        doc.click();
+        window.URL.revokeObjectURL(fileName2);
     }
 
     toggleCollapse(): void {
